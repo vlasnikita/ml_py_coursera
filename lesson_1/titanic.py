@@ -21,7 +21,7 @@ clf.fit(X,y)
 
 importances = np.array(clf.feature_importances_)
 
-print importances
+print 'Pclass: ', importances[0], '\nFare: ', importances[1], '\nAge: ', importances[2], '\nSex: ', importances[3]
 
 dot_data = tree.export_graphviz(
     clf, 
