@@ -1,7 +1,6 @@
 import pandas
 import numpy as np
 from sklearn import tree
-from sklearn.datasets import load_iris
 import graphviz
 
 PATH = '/Users/vlasnikita/Documents/vls/py/ml_py_coursera/'
